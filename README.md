@@ -1,11 +1,14 @@
-<h1>WebdriverIO tests 'import' style</h1>
-<h3>by create local scope with "type":"module" in package.json</h3>
-<hr>
+<h1>WebdriverIO tests 'import' or 'require' code style</h1>
 
-The local file <strong>test/package.json</strong> realizes the local scope <strong>by change</strong> "type":"commonjs" to "type":"module".
+WebdriverIO tests loading modules in the "import" or "require" code style by creating a local scope.<br>
+Local scope is implemented by using the local test/package.json file and <br>
+by changing test environment variable "type": "commonjs" to "type": "module" in that file.
 
-File <strong>example.e2e_old.js</strong> utilizes the '<strong>require</strong>' style by test/package.json without anything (default) or with  "type":"<strong>commonjs</strong>".
-<br>File <strong>example.e2e.js</strong> utilizes the '<strong>import</strong>' style by test/package.json with "type":"<strong>module</strong>".
+The example.e2e_old.js file uses the 'require' code style without any type designation (default) <br>
+or with a designation "type": "commonjs"  in the test/package.json file. <br>
+The example.e2e.js file uses the 'import' code style by designating the value of environment variable "type":"module"  in the same test/package.json file.
+<br><br>
+In the next video you can see how it works in the described modes
 
-
+[![WebdriverIO tests 'import' style](src/img/for video MEGA.jpg)](https://mega.nz/file/6Fg3gaYK#NomPh1Ukgfo5t648YTkUUsMal3DiKcBD6B9VUY_UprE)
 
