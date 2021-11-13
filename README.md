@@ -10,5 +10,5 @@ The example.e2e.js file uses the 'import' code style by designating the value of
 <br><br>
 In the next video you can see how it works in the described modes
 
-[![WebdriverIO tests 'import' style](src/img/for video MEGA.jpg)](https://mega.nz/file/6Fg3gaYK#NomPh1Ukgfo5t648YTkUUsMal3DiKcBD6B9VUY_UprE)
+[![WebdriverIO tests 'import' style](./src/img/for video MEGA.jpg)](https://mega.nz/file/6Fg3gaYK#NomPh1Ukgfo5t648YTkUUsMal3DiKcBD6B9VUY_UprE)
 
